@@ -1,4 +1,4 @@
-Repositório criado para armazenar exercícios, exemplos e projetos desenvolvidos durante meus estudos no curso de Java.
+  Repositório criado para armazenar exercícios, exemplos e projetos desenvolvidos durante meus estudos no curso de Java.
 
 # 📚 Conteúdo
 Ao longo deste repositório serão adicionados exemplos e exercícios sobre:
@@ -28,8 +28,8 @@ GitHub
 VS Code
 
 # 📂 Estrutura do Repositório
-estudos_java/
-├── conceitos/
-├── exercicios/
-├── projetos/
+estudos_java/ 
+├── conceitos/  
+├── exercicios/ 
+├── projetos/ 
 └── README.md
