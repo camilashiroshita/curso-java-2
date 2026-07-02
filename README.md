@@ -22,10 +22,10 @@ Este repositório foi criado para acompanhar minha jornada de aprendizado em Jav
 A ideia é usar este espaço como um histórico dos meus estudos, mostrando meu progresso e servindo como referência para consultas futuras.
 
 # 🛠️ Tecnologias Utilizadas
-Java
-Git
-GitHub
-VS Code
+Java |
+Git |
+GitHub |
+VS Code |
 
 # 📁 Estrutura do Repositório
 ```text
