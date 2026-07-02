@@ -27,7 +27,7 @@ Git
 GitHub
 VS Code
 
-## 📁 Estrutura do Repositório
+# 📁 Estrutura do Repositório
 ```text
 estudos_java/
 ├── conceitos/
