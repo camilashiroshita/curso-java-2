@@ -1,4 +1,4 @@
-Repositório criado para armazenar exercícios, exemplos e projetos desenvolvidos durante meus estudos no curso de Java.
+  Repositório criado para armazenar exercícios, exemplos e projetos desenvolvidos durante meus estudos no curso de Java.
 
 # 📚 Conteúdo
 Ao longo deste repositório serão adicionados exemplos e exercícios sobre:
@@ -22,10 +22,10 @@ Este repositório foi criado para acompanhar minha jornada de aprendizado em Jav
 A ideia é usar este espaço como um histórico dos meus estudos, mostrando meu progresso e servindo como referência para consultas futuras.
 
 # 🛠️ Tecnologias Utilizadas
-Java
-Git
-GitHub
-VS Code
+Java |
+Git |
+GitHub |
+VS Code |
 
 # 📁 Estrutura do Repositório
 ```text
