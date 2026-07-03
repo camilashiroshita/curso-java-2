@@ -1,32 +1,25 @@
 package exercicios;
 
 public class Carro {
-    String modelo;
-    int ano;
-    String cor;
-    int velecidadeMaxima;    
+    private String modelo;
+    private int ano;
+    private String cor;
+    private int velocidade;    
 
-
-    public int acelerar() {
-        return velecidadeMaxima += 10;
-    }
-
-    Carro(String modelo, int ano, String cor, int velecidadeMaxima) {
+    public Carro(String modelo, int ano, String cor) {
         this.modelo = modelo;
         this.ano = ano;
         this.cor = cor;
-        this.velecidadeMaxima = velecidadeMaxima;
+    }    
+    public void acelerar() {
+        velocidade += 10;
     }
 
     public String getDetalhes() {
         return "Modelo: " + modelo + ", ano: " + ano + ", cor: " + cor +
-        ", velocidade Máxima: " + velecidadeMaxima + "Km/h.";
+        ", velocidade: " + velocidade + "Km/h.";
     }
-    
-
-    public static void main(String[] args) {
-        Carro meuCarro = new Carro("Fusca", 2020, "azul", 100);
-        System.out.println(meuCarro.getDetalhes());
-    }
+     
 }    
+
     
