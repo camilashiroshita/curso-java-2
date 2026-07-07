@@ -11,8 +11,8 @@ public class Main {
         contaBB.atualizarSaldo(50.0);
         contaBB.atualizarSaldo(-50.0);
 
-        System.out.println(contaNu.toString());
-        System.out.println(contaBB.toString());
+        System.out.println(contaNu);
+        System.out.println(contaBB);
         
 
     }

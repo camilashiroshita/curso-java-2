@@ -3,8 +3,11 @@ package br.com.nu;
 public class ContaBancariaNu {
     public String titular;
     public double saldo;
-    public char[] toString;
-
+    
+    public ContaBancariaNu(String titular) {
+        this.titular = titular;
+        this.saldo = 0.0;
+    }    
 
     public void atualizarSaldo(Double valor) {
         saldo += valor;
@@ -13,11 +16,5 @@ public class ContaBancariaNu {
     public String toString() {
         return "{Titular: " + titular + ", saldo: " + saldo + "}";
     }
-
-
-    public ContaBancariaNu(String titular) {
-        this.titular = titular;
-        this.saldo = 0.0;
-    }
-
+    
 }
