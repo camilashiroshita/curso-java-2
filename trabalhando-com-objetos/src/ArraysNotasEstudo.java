@@ -9,7 +9,7 @@ public class ArraysNotasEstudo {
             System.out.println(idade);
         } */
 
-        // System.out.println(Arrays.toString(idades));
+        System.out.println(Arrays.toString(idades));
 
         Gato[] gatos = {new Gato("Leia"), new Gato("Rey")};
 

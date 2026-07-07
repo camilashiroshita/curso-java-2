@@ -1,4 +1,4 @@
-package br.com.camilaono.moradias;
+package moradias;
 
 public class Casa {
     // Inicializando atributos

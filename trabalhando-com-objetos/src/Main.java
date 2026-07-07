@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-import br.com.camilaono.moradias.Casa;
+import moradias.Casa;
 
 public class Main {
     public static void main(String[] args) {
