@@ -1,18 +1,12 @@
-## Getting Started
+# Princípios da Programação Orientada a Objetos (POO)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Neste projeto foram estudados três pilares da Programação Orientada a Objetos (POO) utilizando Java.
 
-## Folder Structure
+## Abstração 📌
+A abstração consiste em representar apenas as características e comportamentos essenciais de um objeto, ocultando detalhes desnecessários de sua implementação. Em Java, isso é feito por meio de classes, atributos e métodos.
 
-The workspace contains two folders by default, where:
+## Encapsulamento 🔒
+O encapsulamento protege os dados de um objeto, restringindo o acesso direto aos seus atributos. Para isso, utiliza-se o modificador `private`, permitindo que os dados sejam acessados ou alterados por meio de métodos públicos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Herança 🧬
+A herança permite que uma classe reutilize atributos e métodos de outra classe utilizando a palavra-chave `extends`. Dessa forma, evita-se a duplicação de código e cria-se uma relação entre classes, onde a subclasse herda as características da superclasse e pode adicionar ou sobrescrever comportamentos.
