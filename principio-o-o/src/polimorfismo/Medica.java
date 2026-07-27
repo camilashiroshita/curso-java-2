@@ -5,5 +5,9 @@ public class Medica implements Trabalhadora {
     public void trabalhar() {
         System.out.println("Tratar pacientes.");
     }
+
+    public String toString() {
+        return "Médica";
+    }
     
 }

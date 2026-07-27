@@ -6,4 +6,7 @@ public class Programadora implements Trabalhadora {
         System.out.println("Fazer programas de computador.");
     }
     
+    public String toString() {
+        return "Programadora";
+    }
 }
