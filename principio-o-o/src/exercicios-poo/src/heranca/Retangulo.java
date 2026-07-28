@@ -11,8 +11,7 @@ public class Retangulo extends FiguraGeometrica {
     }
 
      public int getArea() {
-        int area = (altura*largura);
-        return area;
+        return (this.altura * this.largura);
     }
 
     public String toString() {

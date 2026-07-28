@@ -12,8 +12,7 @@ public class Triangulo extends FiguraGeometrica {
     }
 
     public int getArea() {
-        int area = (base*altura) / 2;
-        return area;
+        return (base * altura) / 2;
     }
 
     public String toString() {
