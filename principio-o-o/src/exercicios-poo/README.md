@@ -12,4 +12,16 @@ Crie uma classe Triangulo que vai herdar de FiguraGeometrica. Essa classe deve t
 Crie uma classe Retangulo que vai herdar de FiguraGeometrica. Essa classe deve ter os atributos privados altura (Integer) e largura (Integer). A classe deve ter um construtor canônico para inicializar seus atributos e também deve inicializar o atributo herdado tipo com o valor "Retangulo". Implemente o método getArea herdado da superclasse, usando a fórmula: (altura * largura). Finalmente, crie o método toString retornando os dados do retângulo no seguinte formato: { altura: 4, largura: 2, tipo: Retangulo }.
 
 
+# 3. Polimorfismo
+Nesse exercício você deverá implementar uma calculadora de impostos, que calcula impostos pra pessoa jurídica e física, respectivamente sendo 10% e 20% da renda anual. Para isso, siga os seguintes passos:
+
+Defina uma interface chamada Imposto com o método calcularImposto que retorna um valor Double.
+
+Defina uma classe ImpostoPessoaJuridica que implementa Imposto e possui um atributo privado rendaAnual (Double). Crie seu construtor canônico e método calcularImposto que retorna 10% do valor da rendaAnual. Finalmente, crie o método getRendaAnual, para retornar o valor desse atributo.
+
+Defina uma classe ImpostoPessoaFisica que implementa Imposto e possui um atributo privado rendaAnual (Double). Crie seu construtor canônico e método calcularImposto que retorna 20% do valor da rendaAnual. Finalmente, crie o método getRendaAnual, para retornar o valor desse atributo.
+
+Crie uma classe CalculadoraImposto com o método main, que cria um array de impostos com um ImpostoPessoaJuridica e ImpostoPessoaFisica, ambos com rendaAnual de 100000. Ao final, itere sobre o array de impostos e imprima em linhas diferentes o retorno do método calcularImposto.
+
+
 
