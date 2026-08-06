@@ -1,8 +1,10 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 public class CollectionsBasics {
     public static void main(String[] args) {
@@ -72,9 +74,47 @@ public class CollectionsBasics {
 
        // - Criando um Array a partir de uma lista (converter)
        String arrayConvertido[] = listaConvertida.toArray(new String[0]);
-       System.out.println(Arrays.toString(arrayConvertido)); 
+       System.out.println("Array: " + Arrays.toString(arrayConvertido)); 
 
+       // Map e HashMap (para salvar um conj de identificador e valor)
+       Map<String, String> mapaDeUsuarios = new HashMap<>();
 
+       // método put (para colocar elemento)
+       mapaDeUsuarios.put("camila", "Camila");
+       mapaDeUsuarios.put("carina", "Carina");
+       mapaDeUsuarios.put("patricia", "Patricia");
+       
+       /*
+       Outra forma de inicialização (com duas chaves):
+       Map<String, String> mapaDeUsuarios = new HashMap<>() {{
+        put("camila", "Camila");
+        put("carina", "Carina");
+        put("patricia", "Patricia");       
+       }};       
+       */
+      System.out.println(mapaDeUsuarios);
+
+      // método get (obter/acessar valor)
+      System.out.println(mapaDeUsuarios.get("camila")); // imprimindo o valor associado à chave
+      
+      // método put (incluir ou, caso a chave já exista, será feita a substituição do valor )
+      mapaDeUsuarios.put("camila", "Camilinha"); // substituindo
+      System.out.println(mapaDeUsuarios);
+      mapaDeUsuarios.put("mauricio", "Mauricio"); // incluindo
+      
+      // método remove (para remover a chave)
+      mapaDeUsuarios.remove("carina");
+      System.out.println(mapaDeUsuarios);
+
+      // iteração com for-each e chamar o método '.values'
+      for (String valor : mapaDeUsuarios.values()) {
+        System.out.println(valor);
+      }
+
+      // percorrer as chaves com o método '.keySet'
+      for (String chave : mapaDeUsuarios.keySet()) {
+        System.out.println(chave);
+      }
 
     }
 }
